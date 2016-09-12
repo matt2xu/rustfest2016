@@ -1,0 +1,15 @@
+[package]
+name = "rustfest"
+version = "0.1.0"
+authors = ["Matthieu Wipliez <matthieu.wipliez@harmonicinc.com>"]
+
+[dependencies]
+tokio-core = "0.1"
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
+tokio-service = { git = "https://github.com/tokio-rs/tokio-service" }
+
+bytes = { git = "https://github.com/carllerche/bytes" }
+
+futures = "0.1"
+net2 = "0.2"
+env_logger = "0.3"
